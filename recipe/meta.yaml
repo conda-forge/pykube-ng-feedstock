@@ -1,5 +1,5 @@
 {% set name = "pykube-ng" %}
-{% set version = "22.1.0" %}
+{% set version = "22.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bee3c758ad8a1c9950cb11f86394a4a37aea865a08bb81aabfb682deca3f600d
+  sha256: 10555ed097362f9a24cdecfb1bec62cfa362381fb638fdd7d9664ed97d8ca2d4
 
 build:
   noarch: python
@@ -36,7 +36,7 @@ test:
 
 about:
   home: https://codeberg.org/hjacobs/pykube-ng
-  summary: 'Lightweight Python 3+ client library for Kubernetes (pykube-ng)'
+  summary: Lightweight Python 3+ client library for Kubernetes (pykube-ng)
   description: |
     Pykube (pykube-ng) is a lightweight Python 3.6+ client library for Kubernetes.
 
