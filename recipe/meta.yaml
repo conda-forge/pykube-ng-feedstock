@@ -1,5 +1,5 @@
 {% set name = "pykube-ng" %}
-{% set version = "22.6.0" %}
+{% set version = "22.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 10555ed097362f9a24cdecfb1bec62cfa362381fb638fdd7d9664ed97d8ca2d4
+  sha256: 1d59564485eea86677c695cc0724b4998bc5ff0b69e37d21fa8bf36379b683ce
 
 build:
   noarch: python
