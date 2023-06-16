@@ -1,11 +1,11 @@
-About pykube-ng
-===============
+About pykube-ng-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pykube-ng-feedstock/blob/main/LICENSE.txt)
 
 Home: https://codeberg.org/hjacobs/pykube-ng
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pykube-ng-feedstock/blob/main/LICENSE.txt)
 
 Summary: Lightweight Python 3+ client library for Kubernetes (pykube-ng)
 
